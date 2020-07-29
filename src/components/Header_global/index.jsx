@@ -7,7 +7,7 @@ const Header=()=>{
         <div id='Header'>
             <div id='Logo'>
                 <Link to='/'>
-                    <Logo></Logo>
+                    <img src={Logo} alt=""/>
                 </Link> 
             </div>
             <div id='Options_menu'>
