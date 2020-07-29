@@ -1,0 +1,30 @@
+#Header{
+    display: flex;
+    background-color: #02021480;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Logo{
+    margin-left: 32px;
+    width: 2rem;
+    height: 2rem;
+}
+
+#Options_menu{
+    margin-right: 32px;
+}
+
+#Options_menu ul li{
+  display: inline-block;
+  margin-right: 16px;
+  list-style: none;
+  color: #ffffff;
+  justify-content: space-around;
+  font-family: 'Maxellight Condensed';
+}
+
+#Options_menu ul li:hover, #Options_menu ul li:focus, #Options_menu ul li:active{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}

@@ -1,0 +1,13 @@
+#Page_features{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url(../../assets/fundo_features.jpg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: cover;
+    position: absolute;
+    justify-content: space-between;
+}
