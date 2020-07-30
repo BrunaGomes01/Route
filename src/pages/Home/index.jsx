@@ -1,8 +1,12 @@
 import React from 'react';
 import './styles.css'
 import Header from '../../components/Header_global/index';
+<<<<<<< HEAD
 import Social_midia from '../../components/Social_midia/index';
 import {Link} from 'react-router-dom'
+=======
+import SocialMidia from '../../components/Social_midia/index';
+>>>>>>> f1bd25544405a78928d9eb2cbeb1744313766cf5
 const Home= () =>{
     return(
         <div id='Page_home'>
@@ -18,7 +22,7 @@ const Home= () =>{
                 </div>
             </main>
             <footer>
-                <Social_midia></Social_midia>
+                <SocialMidia></SocialMidia>
             </footer>
         </div>
     );

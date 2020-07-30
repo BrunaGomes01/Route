@@ -8,8 +8,8 @@ const Routes= () =>{
         <BrowserRouter>
             <Switch>
                 <Route path='/' exact component={Home}></Route>
-                <Route path='/features' exact component={Features}></Route>
-                <Route path='/portifolio' exact component={Portifolio}></Route>
+                {/* <Route path='/features' exact component={Features}></Route>
+                <Route path='/portifolio' exact component={Portifolio}></Route> */}
             </Switch>
         </BrowserRouter>
     );

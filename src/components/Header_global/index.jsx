@@ -8,7 +8,11 @@ const Header=()=>{
         <div id='Header'>
             <div>
                 <Link to='/'>
+<<<<<<< HEAD
                     <img src={Logo} alt='Logo' id='Logo'/>
+=======
+                    <img src={Logo} alt=""/>
+>>>>>>> f1bd25544405a78928d9eb2cbeb1744313766cf5
                 </Link> 
             </div>
             <div id='Options_menu'>
