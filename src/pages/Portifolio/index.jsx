@@ -1,20 +1,20 @@
-import React from 'react';
-import './styles.css';
-import Header from '../../components/Header_global/index'
-import Blocks_portifolio from '../../components/Blocks_portifolio/index';
+import React from 'react'
+import './styles.css'
+import Header from '../../components/HeadingOverall/index'
+import BlocksPortifolio from '../../components/BlocksPortifolio/index'
 const Portifolio=()=>{
     return(
-        <div id='Page_portifolio'>
+        <div id='PagePortifolio'>
             <header>
                 <Header></Header>
-                <h3 id='Titulo'>Our services</h3>
-                <h2 id='Subtitulo'>We make it simple,
+                <h3 id='TitlePortifolio'>Our services</h3>
+                <h2 id='SubtitlePortifolio'>We make it simple,
                 providing best solutions</h2>
             </header>
             <main>
-                <Blocks_portifolio></Blocks_portifolio>
+                <BlocksPortifolio></BlocksPortifolio>
             </main>
         </div>
-    );
+    )
 }
-export default Portifolio; 
+export default Portifolio

@@ -1,4 +1,4 @@
-#Page_features{
+#PageFeatures{
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -12,14 +12,16 @@
     justify-content: space-between;
 }
 
-#Titulo{
-    margin-top: 50px;
-    font-size: 32px;
+#TitleFeatures{
+    margin-top: 0;
+    font-size: 48px;
     margin-bottom: 0px;
     text-align: center;
+    font-family: 'Maxellight Condensed';
+    color: white;
 }
 
-#Subtitulo{
+#SubtitleFeatures{
     margin-top: 20px;
     text-align: center;
     color: #ffffff;

@@ -1,4 +1,4 @@
-#Page_home {
+#PageHome {
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -12,7 +12,7 @@
     justify-content: space-between;
 }
 
-#Titulo{
+#TitleHome{
     color:  #ffffff;
     font-family: 'Maxellight Condensed';
     font-size: 48pt;
@@ -20,7 +20,7 @@
     margin: 0;
 }
 
-#Teste{
+#Click{
     text-align: center;
 }
 #Button{

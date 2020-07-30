@@ -1,6 +1,6 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import Logo from '../../assets/logo.png';
+import React from 'react'
+import { Link } from 'react-router-dom'
+import Logo from '../../assets/logo.png'
 import './styles.css'
 
 const Header=()=>{
@@ -8,14 +8,10 @@ const Header=()=>{
         <div id='Header'>
             <div>
                 <Link to='/'>
-<<<<<<< HEAD
-                    <img src={Logo} alt='Logo' id='Logo'/>
-=======
-                    <img src={Logo} alt=""/>
->>>>>>> f1bd25544405a78928d9eb2cbeb1744313766cf5
+                    <img src={Logo} alt='Logo Seamar' id='Logo'/>
                 </Link> 
             </div>
-            <div id='Options_menu'>
+            <div id='OptionsMenu'>
                 <ul>
                     <Link to='/'>
                         <li>HOME</li>
@@ -29,6 +25,6 @@ const Header=()=>{
                 </ul>
             </div>
         </div>
-    );
+    )
 }
-export default Header;
+export default Header

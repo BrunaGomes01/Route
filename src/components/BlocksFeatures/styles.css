@@ -1,0 +1,40 @@
+#ImageFeature{
+    width: 100%;
+}
+   
+#AllBlock {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#Block{
+    width: 280px;
+    color: black;
+    /* -webkit-box-shadow: 8px 2px 8px -1px rgba(0,0,0,0,24); */
+    background: white;
+    margin: 10px;
+    text-align: center;
+}
+
+#Name{
+    color: #020214;
+    font-size: 16pt;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Maxellight Condensed';
+    font-weight: 600;
+}
+
+#Texto{
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 12pt;
+    color: #434343;
+}
+
+   

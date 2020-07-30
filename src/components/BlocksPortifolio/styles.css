@@ -1,0 +1,31 @@
+#ImagePortifolio{
+    width: 100%;
+}
+   
+#Content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#Item{
+    width: 280px;
+    color: black;
+    /* -webkit-box-shadow: 8px 2px 8px -1px rgba(0,0,0,0,24); */
+    background: white;
+    margin: 10px;
+    text-align: center;
+    flex: 50%;
+}
+
+#NamePortifolio{
+    color: #020214;
+    font-size: 16pt;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Maxellight Condensed';
+    font-weight: 600;
+}

@@ -11,11 +11,11 @@
     height: 50%;
 }
 
-#Options_menu{
+#OptionsMenu{
     margin-right: 32px;
 }
 
-#Options_menu ul li{
+#OptionsMenu ul li{
   display: inline-block;
   margin-right: 16px;
   list-style: none;
@@ -24,7 +24,7 @@
   font-family: 'Maxellight Condensed';
 }
 
-#Options_menu ul li:hover, #Options_menu ul li:focus, #Options_menu ul li:active{
+#OptionsMenu ul li:hover, #OptionsMenu ul li:focus, #OptionsMenu ul li:active{
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
