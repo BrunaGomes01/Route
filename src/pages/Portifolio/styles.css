@@ -1,4 +1,4 @@
-#Page_home {
+#Page_portifolio {
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -10,4 +10,17 @@
     background-size: cover;
     position: absolute;
     justify-content: space-between;
+}
+
+#Titulo{
+    margin-top: 50px;
+    font-size: 32px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+#Subtitulo{
+    margin-top: 20px;
+    text-align: center;
+    color: #ffffff;
 }

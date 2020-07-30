@@ -1,13 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../../assets/logo.png';
+import './styles.css'
 
 const Header=()=>{
     return(
         <div id='Header'>
-            <div id='Logo'>
+            <div>
                 <Link to='/'>
-                    <Logo></Logo>
+                    <img src={Logo} alt='Logo' id='Logo'/>
                 </Link> 
             </div>
             <div id='Options_menu'>

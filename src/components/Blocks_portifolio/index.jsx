@@ -5,19 +5,19 @@ const Block_portifolio=()=>{
     return(
         <div id='All_blocks'>
             <div id='Block1'>
-                <img scr={Work} alt='Work'></img>
+                <img src={Work} alt='Work'></img>
                 <h3>Creative Ideas</h3>  
             </div>
             <div id='Block2'>
-                <img scr={Work} alt='Work'></img>
+                <img src={Work} alt='Work'></img>
                 <h3>Digital Solutions</h3>  
             </div>
             <div id='Block3'>
-                <img scr={Work} alt='Work'></img>
+                <img src={Work} alt='Work'></img>
                 <h3>Brand e Communication</h3>  
             </div>
             <div id='Block4'>
-                <img scr={Work} alt='Work'></img>
+                <img src={Work} alt='Work'></img>
                 <h3>Modern</h3>  
             </div>
 

@@ -1,12 +1,11 @@
-#Social_midia{
-    display: inline-block;
-    /*float: right;*/
+#Social ul li{
     list-style: none;
+    display: inline-block;
     margin-left: 8px;
     margin-right: 32px;
 }
 
-#Social_midia ul li:hover, #Social_midia ul li:focus, #Social_midia ul li:active{
+#Social ul li:hover, #Social ul li:focus, #Social ul li:active{
     -webkit-transform: scale(0.9);
     transform: scale(0.9);
 }
